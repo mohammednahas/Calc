@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("====================");
-Console.WriteLine("   CALCULATOR");
+Console.WriteLine("   CALCULATOR v1.0.0");
 Console.WriteLine("====================");
 
 Console.WriteLine("1. Addition");
@@ -56,18 +56,17 @@ else if (choice == "4")
     Console.Write("Enter second number: ");
     double number2 = double.Parse(Console.ReadLine()!);
 
-    double result = number1 / number2;
 
-    // if (number2 == 0)
-    // {
-    //     Console.WriteLine("Cannot divide by zero.");
-    // }
-    // else
-    // {
-    //     double result = number1 / number2;
+    if (number2 == 0)
+    {
+        Console.WriteLine("Cannot divide by zero.");
+    }
+    else
+    {
+        double result = number1 / number2;
 
-    //     Console.WriteLine($"Result = {result}");
-    // }
+        Console.WriteLine($"Result = {result}");
+    }
 }else
 {
     Console.Write("Enter first number: ");
