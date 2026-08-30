@@ -68,4 +68,12 @@ else if (choice == "4")
 
     //     Console.WriteLine($"Result = {result}");
     // }
-}//add square code
+}else
+{
+    Console.Write("Enter first number: ");
+    double number1 = double.Parse(Console.ReadLine()!);
+
+    Console.Write("Enter second number: ");
+    double number2 = double.Parse(Console.ReadLine()!);
+      Console.WriteLine(Math.Pow(number1,number2));
+}
