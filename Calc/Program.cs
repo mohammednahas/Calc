@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("====================");
-Console.WriteLine("   CALCULATOR v1.0.0");
+Console.WriteLine("   NAHAS CALCULATOR v1.0.1");
 Console.WriteLine("====================");
 
 Console.WriteLine("1. Addition");
